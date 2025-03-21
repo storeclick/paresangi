@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($page_title) ? $page_title . ' - ' . APP_NAME : APP_NAME; ?></title>
+    <title><?php echo isset($page_title) ? $page_title . ' - پاره سنگ' : 'پاره سنگ'; ?></title>
     
     <!-- استایل‌های اصلی -->
-    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_PATH; ?>/assets/css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="<?php echo BASE_PATH; ?>/assets/css/sweetalert2.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.35.3/dist/apexcharts.css">
-    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo BASE_PATH; ?>/assets/css/style.css">
 
     <!-- استایل‌های اختصاصی صفحه -->
     <?php if (isset($page_styles)): ?>
         <?php foreach ($page_styles as $style): ?>
-            <link rel="stylesheet" href="<?php echo BASE_URL . $style; ?>">
+            <link rel="stylesheet" href="<?php echo BASE_PATH . $style; ?>">
         <?php endforeach; ?>
     <?php endif; ?>
 
