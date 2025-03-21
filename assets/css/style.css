@@ -1,0 +1,29 @@
+body {
+    font-family: 'IRANSans', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.sidebar {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+    padding-left: 10px;
+    border-radius: 5px;
+}
